@@ -1,0 +1,10 @@
+title: Devi Parikh
+email: deviparikh@gmail.com
+description: Cushions | Generative Art
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://deviparikh.github.io/cushions/" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+include: ['_pages']
+ga_id: UA-119138789-1
