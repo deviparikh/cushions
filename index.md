@@ -33,7 +33,7 @@ Starting with a grid of randomly oriented diagonal lines,
 
 <img height="300px" src="static/img/grid.png">
 
-the concept shifts focus to the contiguous negative spaces that are created. 
+the concept shifts focus to the negative space that is created. 
 
 <img height="300px" src="static/img/negative.png">
 
