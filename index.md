@@ -29,34 +29,22 @@ It was set up as a create-your-own interactive art generation tool where a user 
 
 The motivation behind the project was to explore the intersection of image processing techniques and ideas in generative art. 
 
-Starting with a grid of randomly oriented diagonal lines,
+Starting with a grid of randomly oriented diagonal lines, the concept shifts focus to the negative space that is created. 
 
-<img height="300px" src="static/img/grid.png">
+<img height="300px" src="static/img/grid.png"> &nbsp;&nbsp;<img height="300px" src="static/img/negative.png">
 
-the concept shifts focus to the negative space that is created. 
+The grid of lines can have varying curvature, often giving the negative spaces the shape of cushions. Higher density grids with the diagonal lines biased in one direction leads to regions that resemble long Indian cushions (takiya) lined up.
 
-<img height="300px" src="static/img/negative.png">
-
-The grid of lines can have varying curvature, often giving the negative spaces the shape of cushions. 
-
-<img height="300px" src="static/img/curvy_negative.png">
-
-Higher density grids with the diagonal lines biased in one direction leads to regions that resemble long Indian cushions (takiya) lined up.
-
-<img height="300px" src="static/img/negative_takiya.png">
+<img height="300px" src="static/img/curvy_negative.png"> &nbsp;&nbsp;<img height="300px" src="static/img/negative_takiya.png">
 
 
 These contiguous regions can be identified using connected component analysis, a classical technique in image processing. All pixels in a region are colored with the same color to highlight each connected region as a whole. 
 
 <img height="300px" src="static/img/colored.png">
 
-Beauty often lives in our unique, individual oddities. To break the uniformity and add an element of imperfection, some regions are sometimes rendered as a dark void, 
+Beauty often lives in our unique, individual oddities. To break the uniformity and add an element of imperfection, some regions may be rendered as a dark void. These voids may contain an intricate texture that gives them a unique accent. 
 
-<img height="300px" src="static/img/void.png">
-
-but often with an intricate texture that gives them a unique accent. 
-
-<img height="300px" src="static/img/texture.png">
+<img height="300px" src="static/img/void.png"> &nbsp;&nbsp; <img height="300px" src="static/img/texture.png">
 
 Inspiration for the palettes ranges from digital illustrations and pastels to a nod to renowned artists and different ethnicities.
 
