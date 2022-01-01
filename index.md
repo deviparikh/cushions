@@ -14,37 +14,37 @@ Cushions is a long-form generative art project by [Devi Parikh][devi] on [ArtBlo
 
 <img class="inline-pic" src="static/img/collage_1.png">
 
-ArtBlocks is a generative art platform. Generative art "refers to art that in whole or in part has been created with the use of an autonomous system \[...\] that is generally \[...\] non-human and can independently determine features of an artwork \[...\]" ([Wikepedia][ga]). In most generative art, the non-human is the computer, and the autonomous process is randomness. On ArtBlocks, when someone is interested in buying a piece of art, they initiate a transaction. The hash of the transaction drives the randomness in the generative art system. A piece of art specific to that transaction is generated.
+ArtBlocks is a generative art platform. Generative art "refers to art that in whole or in part has been created with the use of an autonomous system \[...\] that is generally \[...\] non-human and can independently determine features of an artwork \[...\]" ([Wikepedia][ga]). In most generative art, the non-human is the computer, and the autonomous process is randomness. On ArtBlocks, when someone is interested in buying a piece of art, they initiate a transaction. The hash of the transaction drives the randomness in the generative art system. A piece of art specific to that transaction is then generated.
 
-Crucially, neither the buyer, nor the platform, nor the artist know ahead of time which piece will be generated. There is no curation involved. So the generative art system must not only support a wide variety of pieces so that each piece is qualitatively different, it must also ensure high quality across these wide variety of generations. 
+Crucially, neither the buyer nor the artist know ahead of time which piece will be generated. There is no curation involved. So the generative art system must not only support a wide variety of pieces so that each piece is qualitatively different, it must also ensure high quality across these variations.
 
-(As an aside, these aspects of long-form generative art have interesting analogies to [computational creativity][cc] literature that often views creativity as a mix of novelty and quality. In fact, Wikipedia defines creativity as "a phenomenon whereby something new and valuable is formed".)
+(As an aside, these aspects of long-form generative art have analogies to [computational creativity][cc] literature that often views creativity as a mix of novelty and quality. In fact, Wikipedia defines creativity as "a phenomenon whereby something new and valuable is formed".)
 
 
-## The Concept
-
-The core idea behind Cushions started in 2018. The project has come a long way since! Interestingly, even back then, it was a long-form generative art project (before [Tyler Hobbs popularized the term][lfga] in April 2021). 
+While it has come a long way since, the core idea behind Cushions started in 2018. Interestingly, even back then, it was a long-form generative art project (before [Tyler Hobbs popularized the term][lfga] in April 2021).
 
 It was set up as a create-your-own interactive art generation tool where a user can set different features and make their own piece. It is still live [here][cyo] today. Every piece had to look good, irrespective of what parameters a user picked. Now on ArtBlocks, control is handed over not to another person, but to the randomness of a transaction hash :) 
 
+## The Concept
+
 The motivation behind the project was to explore the intersection of image processing techniques and ideas in generative art. 
 
-Starting with a grid of randomly oriented diagonal lines, the concept shifts focus to the negative space that is created. 
+Starting with a grid of randomly oriented diagonal lines, the concept shifts focus to the negative space that is created by the lines. Contiguous regions can be identified using connected component analysis, a classical technique in image processing. 
 
-<img height="300px" src="static/img/grid.png"> &nbsp;&nbsp;<img height="300px" src="static/img/negative.png">
+<img class="inline-pic" src="static/img/collage_region.png">
 
-The grid of lines can have varying curvature, often giving the negative spaces the shape of cushions. Higher density grids with the diagonal lines biased in one direction leads to regions that resemble long Indian cushions (takiya) lined up.
+The grid of lines can have varying curvature, often giving regions the shape of cushions. Higher density grids with the diagonal curves biased in one direction leads to regions that resemble long Indian cushions (takiya) lined up.
 
-<img height="300px" src="static/img/curvy_negative.png"> &nbsp;&nbsp;<img height="300px" src="static/img/negative_takiya.png">
+<img class="inline-pic" src="static/img/collage_cushion.png">
 
 
-These contiguous regions can be identified using connected component analysis, a classical technique in image processing. All pixels in a region are colored with the same color to highlight each connected region as a whole. 
+All pixels in a region are colored the same color to highlight connected regions as a whole. 
 
-<img height="300px" src="static/img/colored.png">
+<img class="inline-pic" src="static/img/collage_colored.png">
 
 Beauty often lives in our unique, individual oddities. To break the uniformity and add an element of imperfection, some regions may be rendered as a dark void. These voids may contain an intricate texture that gives them a unique accent. 
 
-<img height="300px" src="static/img/void.png"> &nbsp;&nbsp; <img height="300px" src="static/img/texture.png">
+<img class="inline-pic" src="static/img/collage_void.png">
 
 Inspiration for the palettes ranges from digital illustrations and pastels to a nod to renowned artists and different ethnicities.
 
@@ -65,11 +65,11 @@ Cushions supports more than 5 billion possibilities across 13 features!
 
 2. Texture of the piece is dictated by the curvature of the lines. This takes 4 values: Straight, Wavy, Curvy, Coily.
 
-3. Balance indicates whether the lines are biased in one direction or the other. This takes 5 values: Left, Left-tilt, Balanced, Right-tilt, Right
+3. Balance indicates whether the curves are biased in one direction or the other. This takes 5 values: Left, Left-tilt, Balanced, Right-tilt, Right
 
 4. Strokes indicates the thickness of the curves. This takes 6 values: Fine, Thin, Solid, Thick, Chunky, Heavy
 
-5. Style takes 2 values: Neutral, Ornamented. It indicates whether the strokes are emphasized by a white-on-black contrast or not.
+5. Style takes 2 values: Neutral, Ornamented. It indicates whether the curves are emphasized by a white-on-black contrast or not.
 
 6. Palette indicates which hand-designed palette is used to color the piece. This takes 50 values: Pastel, Neon, Dream, Marshmallow, Meadow, Ethnic, Cake, Baby, Bright, Beach, Gradient, Cotton Candy, Journal, Authentic, Cartoon, Statement, Business, Salient, Primary, Home, Icing, Birthday, Grown Up, Core, Scheme, Activity, Pop, Wood, Mighty, Iconic, Potential, Gold, Insomnia, Safe, Surprise, Love, Deep, Basquiat, Dali, Gauguin, Lichtenstein, Monet, Munch, Rothko, Gogh, Warhol, Mondrian, Canna, Magritte, Truth.
 
@@ -85,7 +85,7 @@ Cushions supports more than 5 billion possibilities across 13 features!
 
 12. Voidness indicates the size of the void. It takes 4 values: V- (if there is no void), V, V+, V++.
 
-13. CutAcross indicates whether the void region (if present) has the grid of curves going through it to exaggerate the grid, or if the lines are suppressed to exaggerate the void. It takes 2 values: Yes, No.
+13. CutAcross indicates whether the void region (if present) has the grid of curves going through it to exaggerate the grid, or if the curves are suppressed to exaggerate the void. It takes 2 values: Yes, No.
 
 Out of 1000 simulations, on average, two pieces have 4 out of the 13 features in common. Even in the very unlikely event that two pieces have all 13 features in common, the two pieces will very likely not be identical because there is additional randomness in the pieces driven by the hash beyond what the features control (e.g., the orientations of the individual curves, the color of the individual regions).
 
