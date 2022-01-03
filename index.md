@@ -1,7 +1,7 @@
 ---
 layout: pub
 urltitle: "Cushions"
-title: "Cushions"
+title: "A Generative Art Project by Devi Parikh"
 categories: Confluence, Generative Art, AI, Devi Parikh, 
 favicon: static/img/cushions.png
 permalink: /
@@ -23,7 +23,7 @@ Crucially, neither the buyer nor the artist know ahead of time which piece will 
 
 While it has come a long way since, the core idea behind Cushions started in 2018. Interestingly, even back then, it was a long-form generative art project (before [Tyler Hobbs popularized the term][lfga] in April 2021).
 
-It was set up as a create-your-own interactive art generation tool where a user can set different features and make their own piece. It is still live [here][cyo] today. Every piece had to look good, irrespective of what parameters a user picked. Now on ArtBlocks, control is handed over not to another person, but to the randomness of a transaction hash :) 
+It was set up as a create-your-own interactive art generation tool where a user can set different features and make their own piece. It is still live [here][cyo] today. Every piece had to look good, irrespective of what parameters a user picked. Now on ArtBlocks, control is handed over not to another person, but to the randomness of a transaction hash!
 
 ## The Concept
 
@@ -33,7 +33,7 @@ Starting with a grid of randomly oriented diagonal lines, the concept shifts foc
 
 <img class="inline-pic" src="static/img/collage_region.png">
 
-The grid of lines can have varying curvature, often giving regions the shape of cushions. Higher density grids with the diagonal curves biased in one direction leads to regions that resemble long Indian cushions (takiya) lined up.
+The grid of lines can have varying curvature, often giving regions the shape of cushions. Higher density grids with the diagonal curves biased in one direction lead to regions that resemble long Indian cushions (takiya) lined up.
 
 <img class="inline-pic" src="static/img/collage_cushion.png">
 
@@ -63,7 +63,7 @@ Cushions supports more than 5 billion possibilities across 13 features!
 
 1. Scale indicates the density of the underlying grid. This takes 15 values: I, II, III, IV, V, VI, VII, VIII, IX, X, XI, XII, XIII, XIV, XV. 
 
-2. Texture of the piece is dictated by the curvature of the lines. This takes 4 values: Straight, Wavy, Curvy, Coily.
+2. Texture indicates the curvature of the lines. This takes 4 values: Straight, Wavy, Curvy, Coily.
 
 3. Balance indicates whether the curves are biased in one direction or the other. This takes 5 values: Left, Left-tilt, Balanced, Right-tilt, Right
 
@@ -87,7 +87,7 @@ Cushions supports more than 5 billion possibilities across 13 features!
 
 13. CutAcross indicates whether the void region (if present) has the grid of curves going through it to exaggerate the grid, or if the curves are suppressed to exaggerate the void. It takes 2 values: Yes, No.
 
-Out of 1000 simulations, on average, two pieces have 4 out of the 13 features in common. Even in the very unlikely event that two pieces have all 13 features in common, the two pieces will very likely not be identical because there is additional randomness in the pieces driven by the hash beyond what the features control (e.g., the orientations of the individual curves, the color of the individual regions).
+As mentioned, Cushions supports more than 5 billion possibilities across these 13 features! Out of 1000 simulations, on average, two pieces have 4 out of the 13 features in common. Even in the very unlikely event that two pieces have all 13 features in common, the two pieces will very likely not be identical because there is additional randomness in the pieces driven by the hash beyond what the features control (e.g., the orientations of the individual curves, the color of the individual regions).
 
 
 ## The Artist
@@ -98,7 +98,7 @@ While evolving, her generative art so far has tended to have vibrant colors, geo
 
 She gets energy out of creative expression. Some of it through her art -- both digital and analog. Some of it through her research in AI. In fact, the two intersect -- part of her work is on developing AI that can enhance human creativity -- give people new tools for creative expression.
 
-She was born in Tulsa, Oklahoma, USA. But you wouldn't guess from her name, how she looks, or how she sounds. She has lived in Riyadh, Saudi Arabia. She grew up in Ahmedabad, India. She has an abysmal sense of space and orientation. She has an excellent sense of time. She hates small talk. She loves deep connections with people. She appeared in Forbes' list of 20 "Incredible Women Advancing A.I. Research". 
+She was born in Tulsa, Oklahoma, USA. But you wouldn't guess from her name, how she looks, or how she sounds. She has lived in Riyadh, Saudi Arabia. She grew up in Ahmedabad, India. She currently lives in San Francisco, USA. She has an abysmal sense of space and orientation. She has an excellent sense of time. She hates small talk. She loves deep connections with people. She appeared in Forbes' list of 20 "Incredible Women Advancing A.I. Research". 
 
 She has dabbled in sketching, painting, origami, dancing, music all her life -- she was decent at some of this, not so much at the rest :) She was first introduced to AI in 2003 in junior year of college and has worked in AI since. She was first introduced to generative art by a friend in 2018, when her day-job presented fewer opportunities to be hands-on with code. Generative art scratched the itch to code as well as explore AI for creativity.
 
