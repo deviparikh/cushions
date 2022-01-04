@@ -107,9 +107,9 @@ Find out more about Devi's art at [http://stateoftheheart.ai/][soth]. You can al
 [artblocks]: https://www.artblocks.io/
 [cyo]: https://cc.gatech.edu/~parikh/create_your_own/tiles_cushions.html
 [lfga]: https://tylerxhobbs.com/essays/2021/the-rise-of-long-form-generative-art
-[sketchbook]: ./sketchbook.html
-[macrame]: ./macrame.html
-[origami]: ./origami.html
+[sketchbook]: https://www.cc.gatech.edu/~parikh/sketchbook.html
+[macrame]: https://www.cc.gatech.edu/~parikh/macrame.html
+[origami]: https://www.cc.gatech.edu/~parikh/origami.html
 [soth]: http://stateoftheheart.ai/ 
 [rorschach]: https://en.wikipedia.org/wiki/Rorschach_test
 [pareidolia]: https://en.wikipedia.org/wiki/Pareidolia
