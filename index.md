@@ -42,7 +42,9 @@ All pixels in a region are colored the same color to highlight connected regions
 
 <img class="inline-pic" src="static/img/collage_colored.png">
 
-Beauty often lives in our unique, individual oddities. To break the uniformity and add an element of imperfection, some regions may be rendered as a dark void. These voids may contain an intricate texture that gives them a unique accent. 
+Beauty often lives in our unique, individual oddities. To break the uniformity and add an element of imperfection, some regions may be rendered as a dark void. This gives the pieces an organic look within an otherwise crisp and structured design. 
+
+These voids may contain an intricate texture that gives them a unique accent. The idea is that we should own, embrace, and leverage our individual oddities instead of shying away from them. 
 
 <img class="inline-pic" src="static/img/collage_void.png">
 
