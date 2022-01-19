@@ -29,7 +29,7 @@ It was set up as a create-your-own interactive art generation tool where a user 
 
 The motivation behind the project was to explore the intersection of image processing techniques and ideas in generative art. 
 
-Starting with a grid of randomly oriented diagonal lines, the concept shifts focus to the negative space that is created by the lines. Contiguous regions can be identified using connected component analysis, a classical technique in image processing. 
+Starting with a grid of randomly oriented diagonal lines (Truchet tiles), the concept shifts focus to the negative space that is created by the lines. Contiguous regions can be identified using connected component analysis, a classical technique in image processing. 
 
 <img class="inline-pic" src="static/img/collage_region.png">
 
