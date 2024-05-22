@@ -107,15 +107,15 @@ She has dabbled in sketching, painting, origami, dancing, music all her life -- 
 Find out more about Devi's art at [http://stateoftheheart.ai/][soth]. You can also find her on [Twitter][tw], [Instagram][insta], [Foundation][fnd] and [fxhash][fxhash]. 
 
 [artblocks]: https://www.artblocks.io/
-[cyo]: https://cc.gatech.edu/~parikh/create_your_own/tiles_cushions.html
+[cyo]: https://deviparikh.com/create_your_own/tiles_cushions.html
 [lfga]: https://tylerxhobbs.com/essays/2021/the-rise-of-long-form-generative-art
-[sketchbook]: https://www.cc.gatech.edu/~parikh/sketchbook.html
-[macrame]: https://www.cc.gatech.edu/~parikh/macrame.html
-[origami]: https://www.cc.gatech.edu/~parikh/origami.html
+[sketchbook]: https://deviparikh.com/sketchbook.html
+[macrame]: https://deviparikh.com/yarn.html
+[origami]: https://deviparikh.com/origami.html
 [soth]: http://stateoftheheart.ai/ 
 [rorschach]: https://en.wikipedia.org/wiki/Rorschach_test
 [pareidolia]: https://en.wikipedia.org/wiki/Pareidolia
-[devi]: https://www.cc.gatech.edu/~parikh/
+[devi]: https://deviparikh.com
 [tw]: https://twitter.com/deviparikh
 [insta]: https://www.instagram.com/deviparikh/
 [fnd]: https://foundation.app/@deviparikh
